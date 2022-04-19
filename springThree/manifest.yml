@@ -1,0 +1,11 @@
+---
+applications:
+- name: springThree
+  random-route: true
+  path: /target/springThree-0.0.1-SNAPSHOT.war
+  buildpacks:
+  - java_buildpack
+  services:
+  - mysql
+    
+  
